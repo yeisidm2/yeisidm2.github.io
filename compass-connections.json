@@ -1,0 +1,26 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "1011a5f8-427f-481c-8760-85d07b84a322",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1697493969566"
+        }
+      },
+      "favorite": {
+        "name": "tiendapp",
+        "color": "color4"
+      },
+      "connectionOptions": {
+        "connectionString": "mongodb://localhost:27017/",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}

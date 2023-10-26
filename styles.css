@@ -1,0 +1,65 @@
+body {
+    background-color: #b0e0e6; /* Fondo azul claro */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    width: 300px; /* Ancho ajustado a 300px */
+}
+
+h2 {
+    color: #333;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 70%;
+    padding: 8px;
+    background-color: #007bff; /* Color de botón */
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Estilos de la marca de agua */
+.watermark {
+    position: fixed; /* Fija la posición de la marca de agua en la ventana del navegador */
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 20px; /* Ajusta la distancia desde la derecha */
+    opacity: 0.5; /* Opacidad de la marca de agua (0 = transparente, 1 = opaco) */
+    pointer-events: none; /* Evita que la marca de agua sea clickeable */
+}
+
+/* Estilos adicionales para la imagen de marca de agua si es necesario */
+.watermark img {
+    max-width: 100%;
+    height: auto;
+}
+
+button:hover {
+    background-color: #0056b3; /* Cambiar color al pasar el mouse */
+}
