@@ -1,5 +1,5 @@
 # yeisidm2.github.io
-tiendapp proyecto
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
